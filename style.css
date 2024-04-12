@@ -121,6 +121,10 @@ input {
   object-fit: cover;
 }
 
+#myModal{
+  transition: opacity 0.3s ease;
+}
+
 
 
 @media screen and (max-width:290px) {
