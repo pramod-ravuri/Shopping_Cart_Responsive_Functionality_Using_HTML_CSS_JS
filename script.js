@@ -83,7 +83,6 @@ document.addEventListener("DOMContentLoaded", async () => {
                 <div class="card-body">
                     <h5 class="card-title">${item.name}</h5>
                     <p class="card-text"><span class="fw-semibold">Brand:</span> ${item.brand}</p>
-                    <p>${item.description}</p>
                     <div class="text-center">
                         <a href="#" class="btn btn-primary w-50">&dollar;${item.price}</a>
                     </div>
