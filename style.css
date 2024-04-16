@@ -10,6 +10,8 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+/* navigation */
+
 #navbar {
   align-items: center;
   display: flex;
@@ -51,6 +53,11 @@ input {
   margin: 0 15px;
 }
 
+
+/* slider */
+
+
+
 .header-slider {
   overflow-y: hidden;
   position: relative;
@@ -63,6 +70,7 @@ input {
 .header-slider ul li {
   width: 100%;
 }
+
 
 .slider-list {
   align-items: center;
@@ -93,7 +101,6 @@ input {
 }
 
 
-
 .header-slider a {
   background-color: #e5e5e5;
   color: black;
@@ -121,10 +128,13 @@ input {
   object-fit: cover;
 }
 
+/* modal */
+
 #myModal {
   transition: opacity 0.3s ease;
 }
 
+/* article */
 
 article .copy-rights {
   display: flex;
@@ -154,6 +164,8 @@ article h5 {
   color: rgb(178, 173, 173);
 }
 
+
+/* media queries */
 
 
 @media screen and (max-width:290px) {
